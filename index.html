@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro de usuario</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <header>
+        <h1>cadastro de usuario</h1>
+    </header>
+    <main>
+        <form id="userForm"onsubmi="return validateForm()">
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text"id="name"name="name"placeholder="ingrid">               
+            </div>
+            <div class="form-group">
+                <label for="email">email:</label>
+                <input type="email"id="email"name="email"placeholder="inrid.andrade.lopes@escola.pr.gov.br">
+            </div>
+            <div class="form-group">
+                <labrl for="password">senha:</labrl>
+                <input type="password"id="password"name="password"placeholder="15032007ingrid">
+            </div>
+            <button type="submit">cadastrar</button>
+        </form>
+        <p id="errormessage"></p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
