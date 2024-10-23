@@ -11,7 +11,7 @@ function validateForm(){
         return false;
     }
 
-    // Parte imcompleta:veridar o forato do email usando regex
+    // Parte incompleta:veridar o forato do email usando regex
     if(/* Adiciona a condicao para validar email */){
         errorMessage.textContent ="A senha deve ter pelo menos 6 caracteres.";
         return false;
